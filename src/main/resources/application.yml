@@ -1,0 +1,17 @@
+server:
+  port: 18889
+  tomcat:
+    threads:
+      max: 1000000000
+  undertow:
+    threads:
+      worker: 1048575
+
+  jetty:
+    threads:
+      max: 1000000000
+
+rx:
+  port: 18888
+  max-workers: 1000000000
+  min-workers: 1000

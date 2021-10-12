@@ -1,0 +1,1 @@
+wrk -t10 -c2048 -d30s -T5 --script=./wrk.lua http://localhost:18888/test
